@@ -82,6 +82,7 @@ export const fetchPosts = async () => {
         pubDate,
         number,
         fc2fans: fc2FansUrl.replace('{number}', number),
+        fc2Vendor: 'https://fc2club.com/index.php?info%5Bseller%5D={vendor}&c=search&a=init&catid=6&typeid=1&siteid=1&dosubmit=1'.replace('{vendor}', vendor),
         images,
       };
     }),

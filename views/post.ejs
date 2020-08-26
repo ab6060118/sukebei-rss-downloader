@@ -3,6 +3,7 @@
   <div style="display:flex">
     <span>Date: <%=new Date(post.pubDate).toISOString().replace(/T/, ' ').replace(/\..+/, '')%></span>
     <a href="<%=post.fc2fans%>" style="margin-left: 20px">FC2 Fans</a>
+    <a href="<%=post.fc2Vendor%>" style="margin-left: 20px">FC2 Fans vendor</a>
     <button style="margin-left: 20px" onclick="fetch('/download/<%=post.number%>',{method: 'post'}).then(data=>data.json()).then(data => alert(data.data))">Download [<%=post.number%>]</button>
   </div>
   <div style="margin-top:20px">
