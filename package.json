@@ -13,7 +13,7 @@
     "axios": "^0.21.1",
     "crawler": "^1.2.1",
     "ejs-locals": "^1.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fast-xml-parser": "^3.17.2",
     "https": "^1.0.0",
     "rss-parser": "^3.8.0",
